@@ -1,0 +1,153 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="GeneralStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="HomeStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/color_background</item>
+        <item name="android:gravity">center_vertical|center_horizontal|center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="PicHomeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/duecentocinquanta</item>
+    </style>
+
+    <style name="TextHomeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/colosseum</item>
+        <item name="android:layout_marginBottom">@dimen/dieci</item>
+        <item name="android:gravity">center_vertical|center_horizontal|center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/t_trentacinque</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DescHomeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/roman_title</item>
+        <item name="android:layout_marginBottom">@dimen/sedici</item>
+        <item name="android:layout_marginLeft">@dimen/venti</item>
+        <item name="android:layout_marginRight">@dimen/venti</item>
+        <item name="android:gravity">center_vertical|center_horizontal|center</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/t_sedici</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="LinearStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="RelativeStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:minHeight">@dimen/novanta</item>
+    </style>
+
+    <style name="ProfileStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/sedici</item>
+    </style>
+
+    <style name="TourTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/color_category</item>
+        <item name="tabSelectedTextColor">@color/color_category</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/trecento</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/otto</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/t_ventidue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal|center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DescriptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/otto</item>
+        <item name="android:textSize">@dimen/t_sedici</item>
+    </style>
+
+    <style name="PicStyle">
+        <item name="android:layout_width">@dimen/cento</item>
+        <item name="android:layout_height">@dimen/novanta</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="ListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/novanta</item>
+        <item name="android:layout_alignBottom">@id/current_tour_pic</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_toRightOf">@id/current_tour_pic</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingRight">@dimen/quaranta</item>
+        <item name="android:paddingLeft">@dimen/sedici</item>
+    </style>
+
+    <style name="textListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/zero</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ArrowStyle">
+        <item name="android:layout_width">@dimen/venticinque</item>
+        <item name="android:layout_height">@dimen/venticinque</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">@dimen/sedici</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/welcome</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">@dimen/sedici</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/t_trenta</item>
+    </style>
+
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>
+
+

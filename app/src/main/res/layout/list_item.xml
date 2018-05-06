@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_page"
+    style="@style/RelativeStyle">
+
+    <ImageView
+        android:id="@+id/current_tour_pic"
+        style="@style/PicStyle"
+        android:contentDescription="@string/tour_pic"
+        android:src="@drawable/sanpietro_pic" />
+
+    <LinearLayout
+        android:id="@+id/current_tour_profile"
+        style="@style/ListStyle">
+
+        <TextView
+            android:id="@+id/current_tour_name"
+            style="@style/textListStyle"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            tools:text="@string/tour_name" />
+
+        <TextView
+            android:id="@+id/current_tour_info"
+            style="@style/textListStyle"
+            android:layout_weight="2"
+            android:textAppearance="?android:textAppearanceSmall"
+            tools:text="@string/infoSanPietro" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/play_arrow"
+        style="@style/ArrowStyle"
+        android:contentDescription="arrow"
+        android:src="@drawable/arrow_pic" />
+
+</RelativeLayout>

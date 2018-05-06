@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="zero">0dp</dimen>
+    <dimen name="uno">1dp</dimen>
+    <dimen name="otto">8dp</dimen>
+    <dimen name="dieci">10dp</dimen>
+    <dimen name="sedici">16dp</dimen>
+    <dimen name="venti">20dp</dimen>
+    <dimen name="venticinque">25dp</dimen>
+    <dimen name="trenta">30dp</dimen>
+    <dimen name="quaranta">40dp</dimen>
+    <dimen name="novanta">90dp</dimen>
+    <dimen name="cento">100dp</dimen>
+    <dimen name="duecento">200dp</dimen>
+    <dimen name="duecentocinquanta">250dp</dimen>
+    <dimen name="trecento">300dp</dimen>
+
+    <dimen name="t_dodici">12sp</dimen>
+    <dimen name="t_sedici">16sp</dimen>
+    <dimen name="t_ventidue">22sp</dimen>
+    <dimen name="t_trenta">30sp</dimen>
+    <dimen name="t_trentacinque">35sp</dimen>
+
+</resources>

@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name">Vacanze Romane</string>
+    <string name="app_title">Colosseum</string>
+
+    <!-- General Info -->
+
+    <string name="home_title">Roman Holidays</string>
+    <string name="description_home">Rome is the capital of Italy and a special comune Rome also serves as the capital of the Lazio region. With 2,873,874 residents in 1,285 km2 (496.1 sq mi), it is also the countrys most populated comune. It is the fourth-most populous city in the European Union by population within city limits.</string>
+    <string name="button_home">Enter</string>
+    <string name="tour_category">Categoria</string>
+    <string name="tour_name">Luogo</string>
+    <string name="tour_info">Informazione</string>
+    <string name="tour_pic">Immagine Profilo</string>
+    <string name="tour_image">Immagine</string>
+    <string name="tour_image_det">Dettaglio Immagine</string>
+
+    <!-- Categories Info -->
+    <string name="piazze_cat">Piazze</string>
+    <string name="piazze">Piazze</string>
+    <string name="palazzi_cat">Palazzi</string>
+    <string name="palazzi">Palazzi</string>
+    <string name="basiliche_cat">Basiliche</string>
+    <string name="basiliche">Basiliche</string>
+    <string name="monumenti_cat">Architecture</string>
+    <string name="monumenti">Monumenti</string>
+
+    <!-- Piazze romane -->
+    <string name="sanPietro">Piazza San Pietro</string>
+    <string name="delPopolo">Piazza del Popolo</string>
+    <string name="dellaRotonda">Piazza della Rotonda</string>
+    <string name="Navona">Piazza Navona</string>
+
+    <!-- Palazzi romani -->
+    <string name="quirinale">Palazzo Quirinale</string>
+    <string name="montecitorio">Palazzo Montecitorio</string>
+    <string name="farnese">Palazzo Farnese</string>
+    <string name="odescalchi">Palazzo Odescalchi</string>
+
+    <!-- Basiliche romane -->
+    <string name="vaticana">Basilica Vaticana</string>
+    <string name="fuorimura">San Paolo fuori le mura</string>
+    <string name="maggiore">Santa Maria Maggiore</string>
+    <string name="laterano">San Giovanni in Laterano</string>
+
+    <!-- Monumenti romani -->
+    <string name="colosseo">Colosseo</string>
+    <string name="severo">Arco di Settimio Severo</string>
+    <string name="tiberina">Isola Tiberina</string>
+    <string name="cestia">Piramide Cestia</string>
+
+    <!-- Descriptions of Piazze -->
+    <string name="sanPietroDesc">St. Peter Square is a large plaza located directly in front of St. Peter Basilica in the Vatican City, the papal enclave inside Rome, directly west of the neighbourhood or rione of Borgo. Both the square and the basilica are named after Saint Peter, an apostle of Jesus and the first Catholic Pope.</string>
+    <string name="delPopoloDesc">Piazza del Popolo is a large urban square in Rome. The name in modern Italian literally means "Peoples Square", but historically it derives from the poplars (populus in Latin, pioppo in Italian) after which the church of Santa Maria del Popolo, in the northeast corner of the piazza, takes its name.</string>
+    <string name="dellaRotondaDesc">The Piazza della Rotonda is a piazza (city square) in Rome, Italy, on the south side of which is located the Pantheon. The square gets its name from the Pantheon informal title as the church of Santa Maria Rotonda.</string>
+    <string name="NavonaDesc">Piazza Navona is a square in Rome, Italy. It is built on the site of the Stadium of Domitian, built in the 1st century AD, and follows the form of the open space of the stadium. The ancient Romans went there to watch the agones, and hence it was known as "Circus Agonalis". It is believed that over time the name changed to in avone to navone and eventually to navona.</string>
+
+    <!-- Descriptions of Palazzi -->
+    <string name="quirinaleDesc">The Quirinal Palace is a historic building in Rome, Italy, one of the three current official residences of the President of the Italian Republic, together with Villa Rosebery in Naples and Tenuta di Castelporziano in Rome. It is located on the Quirinal Hill, the highest of the seven hills of Rome.</string>
+    <string name="montecitorioDesc">The palace name derives from the slight hill on which it is built, which was claimed to be the Mons Citatorius, the hill created in the process of clearing the Campus Martius in Roman times.</string>
+    <string name="farneseDesc">Palazzo Farnese or Farnese Palace is one of the most important High Renaissance palaces in Rome. Owned by the Italian Republic, it was given to the French government in 1936 for a period of 99 years, and currently serves as the French embassy in Italy.</string>
+    <string name="odescalchiDesc">Palazzo Odescalchi was originally a possession of the Colonna family; in 1622 it was sold to Cardinal Ludovico Ludovisi, nephew of Pope Gregory XV who commissioned Carlo Maderno a renovation of the building; because in the following year the cardinal sold back the palace to the Colonna only the courtyard and a few rooms were completed.</string>
+
+    <!-- Descriptions of Basiliche -->
+    <string name="vaticanaDesc">The Papal Basilica of St. Peter in the Vatican, or simply St. Peter Basilica, is an Italian Renaissance church in Vatican City, the papal enclave within the city of Rome. Designed principally by Donato Bramante, Michelangelo, Carlo Maderno and Gian Lorenzo Bernini, St. Peters is the most renowned work of Renaissance architecture and the largest church in the world.</string>
+    <string name="fuorimuraDesc">The Papal Basilica of St. Paul outside the Walls, commonly known as St. Paul outside the Walls, is one of Romes four ancient, Papal, major basilicas, along with the Basilicas of St. John in the Lateran, St. Peters, and St. Mary Major.</string>
+    <string name="maggioreDesc">The Basilica di Santa Maria Maggiore, or church of Santa Maria Maggiore, is a Papal major basilica and the largest Catholic Marian church in Rome, Italy, from which size it receives the appellation major.</string>
+    <string name="lateranoDesc">The Cathedral of the Most Holy Savior and of Saints John the Baptist and the Evangelist in the Lateran, is the cathedral church of Rome, Italy and therefore houses the cathedra, or ecclesiastical seat, of the Bishop of Rome.</string>
+
+    <!-- Descriptions of Monumenti -->
+    <string name="colosseoDesc">The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine, tuff, and brick-faced concrete, it is the largest amphitheatre ever built.</string>
+    <string name="severoDesc">The Arch of Septimius Severus at the northwest end of the Roman Forum is a white marble triumphal arch dedicated in AD 203 to commemorate the Parthian victories of Emperor Septimius Severus and his two sons, Caracalla and Geta, in the two campaigns against the Parthians of 194/195 and 197–199.</string>
+    <string name="tiberinaDesc">The Tiber Island is the only island in the part of the Tiber river which runs through Rome. Tiber Island is located in the southern bend of the Tiber.</string>
+    <string name="cestiaDesc">The Pyramid of Cestius is an ancient pyramid in Rome, Italy, near the Porta San Paolo and the Protestant Cemetery. It was built as a tomb for Gaius Cestius, a member of the Epulones religious corporation.[1] It stands at a fork between two ancient roads, the Via Ostiensis and another road that ran west to the Tiber along the approximate line of the modern Via della Marmorata. Due to its incorporation into the citys fortifications, it is today one of the best-preserved ancient buildings in Rome.</string>
+
+    <!-- info on Roman piazze -->
+    <string name="infoSanPietro">Basilica Vaticana, Colonnato Berniniano</string>
+    <string name="infodelPopolo">Santa Maria del Popolo, Chiese gemelle, Porta del Popolo</string>
+    <string name="infoRotonda">Basilica del Pantheon, Fontana di Giacomo della Porta</string>
+    <string name="infoNavona">S. Agnese in Agone, Fontana dei Fiumi</string>
+
+    <!-- info on Roman palazzi -->
+    <string name="infoQuirinale">Ottaviano Mascherino, Paolo V Borghese</string>
+    <string name="infoMontecitorio">Innocenzo X, Gian Lorenzo Bernini</string>
+    <string name="infoFarnese">Antonio da Sangallo, Alessandro Farnese</string>
+    <string name="infoOdescalchi">Innocenzo XI, Livio Odescalchi</string>
+
+    <!-- info on Roman basiliche-->
+    <string name="infoVaticana">Michelangelo, Bramante, Raffaello</string>
+    <string name="infoFuorimura">Ciriade, Virginio Vespignani</string>
+    <string name="infoMaggiore">Giuliano da Sangallo, Cappella Paolina</string>
+    <string name="infoLaterano">Papa Milziade, Domenico Fontana</string>
+
+    <!-- info on Roman monumenti-->
+    <string name="infoColosseo">Anfiteatro Flavio, Nerone</string>
+    <string name="infoSevero">Settimio Severo</string>
+    <string name="infoTiberina">Tarquinio il Superbo, Fatebenefratelli</string>
+    <string name="infoCestia">Caio Cestio, Pietro Santo Bartoli</string>
+
+</resources>

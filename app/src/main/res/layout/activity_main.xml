@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/HomeStyle"
+    tools:context="com.example.utente.vacanzeromane.MainActivity">
+
+    <ImageView
+        android:id="@+id/colosseum"
+        style="@style/PicHomeStyle"
+        android:contentDescription="@string/app_title"
+        android:src="@drawable/colosseum" />
+
+    <TextView
+        android:id="@+id/roman_title"
+        style="@style/TextHomeStyle"
+        android:text="@string/home_title" />
+
+    <TextView
+        android:id="@+id/welcome"
+        style="@style/DescHomeStyle"
+        android:text="@string/description_home" />
+
+    <Button
+        android:id="@+id/enter"
+        style="@style/ButtonStyle"
+        android:text="@string/button_home" />
+
+</LinearLayout>
